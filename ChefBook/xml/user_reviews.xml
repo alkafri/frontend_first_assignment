@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user_reviews>
+    <review>
+        <user_name>Jane</user_name>
+        <content>I tried this recipe for dinner last night and it was delicious! The flavors were well-balanced and the dish was easy to make. I'll definitely be making this again.</content>
+    </review>
+    <review>
+        <user_name>John</user_name>
+        <content>This recipe was a hit with my family! The combination of spices was perfect and it had just the right amount of heat. I also appreciated how simple and straightforward the instructions were.</content>
+    </review>
+    <review>
+        <user_name>Samantha</user_name>
+        <content>I wasn't sure about this recipe at first, but it turned out to be amazing! The ingredients all worked together so well and it was a great way to use up some leftovers. I'm looking forward to trying more recipes like this one.</content>
+    </review>
+</user_reviews>

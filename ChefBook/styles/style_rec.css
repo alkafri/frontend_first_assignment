@@ -1,0 +1,202 @@
+.rec-container{
+    position: relative;
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+}
+
+/* START OF RECIPE HEADER STYLE */
+.rec-header{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.rec-header--div--img{
+    width: 30%;
+}
+
+.rec-header--img{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 0.5em;
+}
+
+.rec-header--text{
+    width: 70%;
+    padding-left: 3em;
+}
+
+.rec-header--text--title{
+    font-size: 2em;
+    font-weight: bold;
+    color: #3a0088;
+}
+
+.rec-header--text--subtitle{
+    font-size: 1em;
+    font-weight: bold;
+    color: #3a0088;
+}
+
+.rec-header--text--details{
+    font-size: 1em;
+    font-weight: bold;
+    color: #666666;
+    line-height: 1.8em;
+}
+
+.rec-header--imgs{
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.rec-header--imgs--other{
+    position: relative;
+    width: 22%;
+    margin-right: 0.5em;
+    border-radius: 0.5em;
+}
+/* END OF RECIPE HEADER STYLE */
+
+/* START OF RECIPE MAIN STYLE */
+.rec-main{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.rec-main--ing{
+    width: 30%;
+
+}
+
+.rec-main--ing--title{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3a0088;
+}
+
+.rec-main--ing--serv{
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #666666;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+.rec-main--ing-ul{
+    font-size: 1em;
+    line-height: 2em;
+    padding-left: 0px
+}
+
+.rec-main--method{
+    width: 70%;
+    padding-left: 3em;
+}
+
+.rec-main--meth--title{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3a0088;
+}
+
+ol li::marker {
+    color: red;
+    margin-bottom: 30px;  
+}
+
+ol li {
+    margin-bottom: 30px;  
+}
+
+.rec-main--meth--list{
+    line-height: 2em;
+}
+/* END OF RECIPE MAIN STYLE */
+
+/* START OF RECIPE REVIEW STYLE */
+.rec-rev{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.rec-main--review--title{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3a0088;
+}
+
+.rev-ul{
+    padding-left: 0px;
+}
+
+.rev-li{
+    font-size:1em;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    list-style-type: none;
+    border: 0.1em solid #3a0088;
+    border-radius: 0.5em;
+    padding: 8px;
+    background-color: rgba(58, 0, 136, 0.2);
+}
+
+.rev-textinput{
+    width: 25%;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.rev-textarea{
+    width: 40%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.rev-btn{
+    width: 100px;
+    height: 35px;
+    background-color: gray;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* END OF RECIPE REVIEW STYLE */
+
+
+/* START RESPONSIVE STYLE */
+@media screen and (max-width: 400px)  {
+  
+    .rec-header--text--title{font-size: 1.2em;}
+    .rec-header--text--subtitle{font-size: 0.8em;}
+    .rec-header--text--details{font-size: 0.8em;line-height: 0.9em;}
+    .rec-header--imgs--other{width: 40%;}
+  
+    .rec-main--ing{width:20%}
+    .rec-main--method{width:80%}
+    .rec-main--ing--title{font-size: 1.0em}
+    .rec-main--meth--title{font-size: 1.0em;padding-left: 10px;}
+    .rec-main--ing--serv{font-size: 0.8em;}
+
+    .rec-main--ing-ul{font-size: 0.9em;line-height: 1.2em;}
+    .rec-main--meth--list{font-size: 0.9em;line-height: 1.2em;}
+    
+    .rev-li{font-size: 0.8em;}
+
+    .rev-textinput{width: 80%; height: 10px;}
+    .rev-textarea{width: 80%;}
+
+}

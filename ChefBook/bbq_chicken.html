@@ -1,0 +1,133 @@
+<!-- RECIPE WEB PAGE LINK: https://www.jamieoliver.com/recipes/chicken-recipes/bbq-chicken/
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/javascript">
+    <title>Chef Book - BBQ Chicken</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style_rec.css">
+
+    
+</head>
+<body>
+
+    <section>
+        <div id="header">
+            <header class="header-container">
+                <div class="header-div">
+                    <img src="res/logo.png" class="header-logo">
+                    <div class="header-menu">
+                        <a href="index.html" class="header-link">Home</a>
+                        <a href="#" class="header-link">Recipes</a>
+                        <a href="#" class="header-link">About</a>
+                        <a href="#" class="header-link">Contact</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+    
+    
+    <section id="recipe-details" class="rec-container">
+        <div class="rec-header">
+            <div class="rec-header--div--img">
+                <img src="res/bbq_chicken_main.jpg" class="rec-header--img">
+            </div>
+
+            <div class="rec-header--text">
+                <span class="rec-header--text--title">BBQ Chicken</span><br>
+                <span class="rec-header--text--subtitle">CORN ON THE COB & QUICK SLAW</span>
+                <hr class="rounded">
+                <p class="rec-header--text--details">“Maximize oven space and use the energy to its full potential with this flavour-packed fakeaway. Here, I’m filling up the oven with sticky, glazed BBQ chicken, paprika-spiced wedges and golden corn on the cob. By making the most of store-cupboard and freezer ingredients, this is not only healthier than your average takeaway, it’s much cheaper, too! ”</p>
+            
+                <div class="rec-header--imgs">
+                    <img src="res/BBQ001.jpg" class="rec-header--imgs--other">
+                    <img src="res/BBQ002.jpg" class="rec-header--imgs--other">
+                    <img src="res/BBQ003.jpg" class="rec-header--imgs--other">
+                    <img src="res/BBQ004.jpg" class="rec-header--imgs--other">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="recipe-details" class="rec-container">
+        <div class="rec-main">
+            <div class="rec-main--ing">
+                <p class="rec-main--ing--title">Ingredients</p>
+                <p class="rec-main--ing--serv">Serves <input id="num_of_serv" type="number" value="2" min="2" step="2" max="50" style="width: 35px;height: 25px;text-align: center;" onKeyDown="return false"> Persons</p>
+                <!-- 
+                    The ingredients measurements method is different from ingredient to another, (L, ML, Spoon, Cup, dl and so on)
+                    I set the number of the start portion is 2, and the change of amount should be changed by 2 only.
+                    If the change happen in different values (such as 3, 5 or even 1), this can cause an unreasonable value
+                    such as 1.13 spoon!
+                  -->
+                <ul class="rec-main--ing-ul">
+                    <li class="rec-main--ing-li"><span id="serv-value">75</span> ml tomato ketchup</li>
+                    <li class="rec-main--ing-li"><span id="serv-value">2</span> tablespoons runny honey</li>
+                    <li class="rec-main--ing-li"><span id="serv-value">1</span> tablespoon Worcestershire sauce</li>
+                    <li class="rec-main--ing-li"><span id="serv-value">1</span> teaspoon smoked paprika</li>
+                    <li class="rec-main--ing-li">red wine vinegar</li>
+                    <li class="rec-main--ing-li"><span id="serv-value">6</span> chicken thighs , bone in, skin on</li>
+                    <li class="rec-main--ing-li"><span id="serv-value">1.2</span> kg potatoes</li>
+                    <li class="rec-main--ing-li">olive oil</li>
+                    <li class="rec-main--ing-li"><span id="serv-value">750</span> g frozen corn on the cob</li>
+                    <li class="rec-main--ing-li"><span id="serv-value">250</span> g red cabbage</li>
+                    <li class="rec-main--ing-li"><span id="serv-value">150</span> g carrots</li>
+                    <li class="rec-main--ing-li"><span id="serv-value">1</span> onion</li>
+                    <li class="rec-main--ing-li"><span id="serv-value">100</span> g natural yoghurt</li>
+                </ul>
+            </div>
+
+            <div class="rec-main--method">
+                <p class="rec-main--meth--title">Method</p>
+                <ol type="1" class="rec-main--meth--list">
+                    <li>Preheat the oven to 190°C/375°F/gas 5. Place the ketchup, honey, Worcestershire sauce, most of the smoked paprika and 1 tablespoon of red wine vinegar in a snug-fitting roasting tray and mix together. Add the chicken and toss to coat. At this point, you can either leave the tray covered in the fridge to marinate, or season with a pinch of sea salt and black pepper and set aside while you prep the potatoes.</li>
+                    <li>Scrub and quarter the potatoes lengthways and place in another large roasting tray. Drizzle in 2 tablespoons of olive oil, season and sprinkle over a pinch of smoked paprika, tossing until coated. Arrange the potatoes skin-side down in one even layer. Place the potato tray on the middle shelf of the oven and the chicken tray on the top shelf to roast for 20 minutes.</li>
+                    <li>Once the time’s up, carefully spoon off any fat from the chicken and add to the potatoes, tossing to coat. Baste the chicken in the remaining juices, scraping up any sticky bits from the bottom of the tray. Return both trays to the oven to roast for a further 25 minutes or until the chicken pulls away easily from the bone, placing the frozen corn straight onto the bars of the bottom shelf to cook alongside.</li>
+                    <li>Meanwhile, trim the cabbage and carrots, and peel the onion. Coarsely grate it all on a box grater. Place in a bowl with ½ a tablespoon of red wine vinegar, 1 tablespoon of oil and the yoghurt. Mix together and season to perfection.</li>
+                    <li>Serve the chicken and potatoes alongside the slaw, rolling the corn in all the lovely chicken tray juices before plating up.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section id="recipe-details" class="rec-container">
+        <div class="rec-comments">
+            <p class="rec-main--meth--title">Users Reviews</p>
+            <div class="users_reviews">
+                <ul id="reviewsList" class="rev-ul">
+                    
+                </ul>
+            </div>
+
+            <br><br>
+            
+            <div class="add_review">
+                <p class="rec-main--meth--title">Send your review</p>
+                    <form method="post">
+                        <input name="user_name" type="text" size="60" class="rev-textinput" placeholder="Enter your name" required><br>
+                        <textarea name="review" class="rev-textarea" placeholder="Enter your review here" required></textarea><br>
+                        <button type="submit" class="rev-btn">Submit</button>
+                    </form>
+                    <br><br>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div class="footer-container">
+            All rights reserved &copy; 2023
+        </div>
+    </section>
+
+    <script src="js/ing.js"></script>
+    <script src="js/user_reviews.js"></script>
+</body>
+</html>
