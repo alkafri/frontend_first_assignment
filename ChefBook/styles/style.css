@@ -181,7 +181,7 @@ html body{
 
 
 /* START RESPONSIVE STYLE */
-@media screen and (max-width: 430px)  {
+@media screen and (max-width: 768px)  {
   
     .header-logo{width: 75px;}
 
