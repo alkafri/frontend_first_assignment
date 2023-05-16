@@ -178,7 +178,7 @@ ol li {
 
 
 /* START RESPONSIVE STYLE */
-@media screen and (max-width: 400px)  {
+@media screen and (max-width: 430px)  {
   
     .rec-header--text--title{font-size: 1.2em;}
     .rec-header--text--subtitle{font-size: 0.8em;}
